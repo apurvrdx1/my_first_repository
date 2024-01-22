@@ -128,6 +128,12 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: sans-serif;
+  line-height: 1.25rem;
+  background-color: #f5f5f5;
+}
+
 .apurv_illustration {
   max-width: 300px;
 }
@@ -137,15 +143,54 @@ img {
   height: auto;
 }
 
+strong {
+  font-weight: 600;
+}
+
 .card {
-  max-width: 700px;
+  max-width: 40%;
   display: flex;
   flex-direction: row;
-  border: 1px solid #2d2d2d;
+  border: 1px solid #ececec;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0px 20px 43px 0px rgba(0, 0, 0, 0.1),
+    0px 78px 78px 0px rgba(0, 0, 0, 0.09),
+    0px 177px 106px 0px rgba(0, 0, 0, 0.05),
+    0px 314px 126px 0px rgba(0, 0, 0, 0.01),
+    0px 490px 137px 0px rgba(0, 0, 0, 0);
+  background-color: #ffffff;
 }
 
 .container {
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.675rem;
+  line-height: 2.2rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.apurv_illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutme {
+  padding-right: 2rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
