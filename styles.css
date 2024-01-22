@@ -148,7 +148,8 @@ strong {
 }
 
 .card {
-  max-width: 45%;
+  width: 45%;
+  max-width: 740px;
   min-width: 630px;
   display: flex;
   flex-direction: row;
@@ -215,17 +216,17 @@ p:last-child {
 
   border-radius: 8px;
   /* moz-transition: all 0.4s ease-in-out; */
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .btn-hover:hover {
   background-position: 100% 0;
   /* moz-transition: all 0.4s ease-in-out; */
-  -o-transition: all 0.4s ease-in-out;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .btn-hover:focus {
