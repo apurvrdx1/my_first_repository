@@ -127,3 +127,25 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.apurv_illustration {
+  max-width: 300px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  max-width: 700px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #2d2d2d;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
