@@ -236,9 +236,9 @@ p:last-child {
   background-image: linear-gradient(
     to right,
     #29323c,
-    #485563,
-    #2b5876,
-    #4e4376
+    #4f575e,
+    #7a8892,
+    #46444d
   );
   /* box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75); */
   display: flex;
